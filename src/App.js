@@ -6,9 +6,11 @@ import './view/index.css'
 
 function App() {
   return (
-    // <RouterIndex></RouterIndex>
     <div className="pageWrap">
       <MainHeader></MainHeader>
+      <main className="main">
+        <RouterIndex></RouterIndex>
+      </main>
       <MainFooter></MainFooter>
     </div>
   );
