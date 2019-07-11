@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MainHeader from './view/header.jsx'
+import MainFooter from './view/footer.jsx'
+import RouterIndex from './router/indedx'
+import './view/index.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit11 <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <RouterIndex></RouterIndex>
+    <div className="pageWrap">
+      <MainHeader></MainHeader>
+      <MainFooter></MainFooter>
     </div>
   );
 }

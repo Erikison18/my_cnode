@@ -1,0 +1,12 @@
+.pageWrap{
+    min-height: 100vh;
+}
+#logo{
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+.wrap{
+    max-width: 980px;
+    margin: 0 auto;
+}
