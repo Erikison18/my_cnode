@@ -1,14 +1,11 @@
 import React, {Component} from 'react'
 import {Row, Col} from 'antd'
 import IndexMenu from './indexMenu'
-
-let arr = []
-for (let i = 0; i < 100; i++) {
-    arr.push(<li key={i}>这个{i}</li>)
-}
+import IndexList from './list'
 
 class Index extends Component {
     render() {
+        console.log(this.props)
         return (
                 <Row className="wrap">
                     <Col md={6} xs={0} className="indexSider">
@@ -18,7 +15,7 @@ class Index extends Component {
                         <IndexMenu id="indexXsMenu" mode="horizontal"></IndexMenu>
                     </Col>
                     <Col md={18} xs={24} className="indexList" id="indexList">
-                        {arr}
+                        <IndexList></IndexList>
                     </Col>
                 </Row>
         )
