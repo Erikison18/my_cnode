@@ -1,8 +1,10 @@
-import {Component} from 'react'
+import React,{Component} from 'react'
+import data from './data'
+import PCard from '../card'
 
 class Book extends Component {
     render() {
-        return 'bk'
+        return (<PCard data={data}></PCard>)
     }
 }
 

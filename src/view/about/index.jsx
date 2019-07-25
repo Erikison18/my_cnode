@@ -1,8 +1,10 @@
-import {Component} from 'react'
+import React,{Component} from 'react'
+import PCard from '../card'
+import data from './data'
 
 class About extends Component {
     render() {
-        return 'gy'
+        return (<PCard data={data}></PCard>)
     }
 }
 
