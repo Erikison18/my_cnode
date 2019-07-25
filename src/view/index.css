@@ -13,6 +13,9 @@
     margin: 0 auto;
     overflow: hidden;
 }
+.wrap img{
+    max-width: 100%;
+}
 .headerDivider{
     margin: 10px 0;
     height: 44px;
@@ -75,4 +78,23 @@
 }
 .indexList p {
     margin: 0;
+}
+.ant-list-item-action{
+    margin-left: 36px;
+}
+.ant-list-item-meta{
+    align-items: center;
+    min-width: 200px;
+}
+.userAvatar{
+    display: block;
+    margin:  10px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.userInfo{
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 10px;
 }
