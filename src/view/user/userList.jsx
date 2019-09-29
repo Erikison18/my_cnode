@@ -15,7 +15,7 @@ class UserList extends Component {
                 dataSource = {data}
                 renderItem = {(item)=> (
                     <List.Item key={item.id}>
-                        <Avatar scr={item.author.avatar_url}></Avatar>
+                        <Avatar src={item.author.avatar_url}></Avatar>
                         <Link to={'/user/'+item.author.loginname} className="userName">{item.author.loginname}</Link>
                         <h4><Link to={'/details/'+item.id}>{item.title}</Link></h4>
                         <time>最后回复时间：{item.last_reply_at.split('T')[0]}</time>

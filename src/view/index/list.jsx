@@ -47,7 +47,6 @@ class IndexList extends Component {
                     console.log(err)
                     dispatch({
                         type: 'LIST_UPDATE_ERR',
-                        data: err,
                     })
                 })
         })
