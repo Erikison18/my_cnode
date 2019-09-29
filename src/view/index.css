@@ -98,3 +98,30 @@
     line-height: 24px;
     padding-bottom: 10px;
 }
+.userList{
+    line-height: 32px;
+   
+}
+.userList .userName{
+    margin: 0 10px 0 5px;
+}
+.userList .ant-list-item{
+    display: block;
+}
+.userList .ant-list-item h4{
+    margin-bottom: 0;
+    display: inline-block;
+}
+.userList .ant-list-item{
+    position: relative;
+}
+.userList time{
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+@media all and (max-width: 767px) {
+    .userList .ant-list-item h4{
+        display: block;
+    }
+}
