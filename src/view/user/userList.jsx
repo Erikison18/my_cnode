@@ -1,7 +1,6 @@
 import React,{Component} from 'react'
-import { Card, Row, Col, List, Avatar } from 'antd'
+import { Card, List, Avatar } from 'antd'
 import { Link } from 'react-router-dom'
-import data from './data'
 
 class UserList extends Component {
     render() {
